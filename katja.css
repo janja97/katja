@@ -130,22 +130,23 @@ a {
 
 /* galerije */
 .galerija {
-  padding: 0px 40px;
+  padding: 0px 270px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* ➤ 2 jednako široka stupca */
-  gap: 10px;
+  gap: 50px;
   align-items: stretch; /* ➤ iste visine */
 }
 
 
-/* 
+
 .galerija .p1 {
-  width: 100%;
-} */
+  width: auto;
+}
 
 .galerija .p1 img  ,.galerija .p1 video  , .galerija .p1 a img   {
   width: 100%;
+  max-width: 400px;
   height: auto;
   display: block;
 }
