@@ -114,6 +114,10 @@ ul {
   gap: 50px;
   align-items: stretch;
 }
+.video {
+  display: block !important;
+}
+
 
 .galerija .p1 {
   width: auto;
